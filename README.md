@@ -21,8 +21,6 @@ O fluxo de pesagem passa a ser o seguinte:
 5. Caso não haja nada suspeito e tudo esteja conforme, o automóvel será carregado e poderá seguir viagem
 6. Caso contrário, motorista será encaminhado e veículo é detido
 
-Confira uma demo do projeto em execução clicando [aqui](https://www.youtube.com/watch?v=y9jM6nrJ87I). 
-
 ## Objetivo
 
 Por meio do desenvolvimento desta aplicação, espera-se obter a automação parcial/total das etapas de verificação de veículos de carga.
@@ -59,13 +57,6 @@ Realizar monitaramente e controle de veículos de carga, bem como garantir que o
 
 - Garantir que não haja latência na comunicação entre os serviços
 - Interface simples e intuitiva no aplicativo web, sempre guiando os proximos passos, para que os fiscais consiga realizar o controle sem complicações
-
-## Softwares utilizados no projeto:
-
-- **Linguagem de programação Python**: Utilizada para treinar um modelo de reconhecimento de placas de veículos
-- **Linguagem de programação Javascript**: Utilizada para desenvolvimento da aplicação back-end e front-end
-- **Linguagem de programação C++**: Utilizada para Firmware no microcontrolador
-- **MongoDB**: Banco de dados não relacional utilizado para armazenar todos os dados coletados
 
 ## Descrição arquitetural
 O frontend e o backend estão hospedados na nuvem, no serviço de nuvem da [zCloud](https://zcloud.ws). O MongoDB está hospedado no serviço do MongoDB Atlas.
