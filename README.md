@@ -1,4 +1,4 @@
-# Projeto Sistemas Embarcados
+# Projeto Sistemas Embarcados - Biblioteca
 
 ## Integrantes
 
@@ -8,3 +8,5 @@
 - Lucas Alves Fidelis Araújo
 - Lohan Yrvine Oliveira Pinheiro
 
+## To-do (depois)
+- [] 
