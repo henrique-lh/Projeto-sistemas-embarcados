@@ -21,7 +21,7 @@ Firmware:
 - [ ] Pesquisar e testar a biblioteca do MPU6050
 
 Documentações:
-- [ ] Testar o Kicad
+- [ ] Testar o [Kicad](https://www.kicad.org/)
   > Segundo o professor, o esquemático elétrico vai conter apenas o módulo de controle da ESP32 + o sensor MPU6050 + os componentes elétricos utilizadas para entregar ambos.
 
 ## Para entregar
