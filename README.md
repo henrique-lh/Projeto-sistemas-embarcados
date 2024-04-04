@@ -14,7 +14,7 @@
 ## TODO
 
 Firmware:
-- [ ] Adicionar as interfaces obrigatórias nos componentes
+- [x] Adicionar as interfaces obrigatórias nos componentes
 - [ ] Definir as structs
 - [ ] Pesquisar o cálculo do ângulo de Euler
 - [ ] Pesquisar o cálculo do quartenion
