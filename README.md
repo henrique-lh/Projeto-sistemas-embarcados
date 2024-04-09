@@ -18,8 +18,7 @@ Firmware:
 - [ ] Definir as structs
 - [ ] Pesquisar o cálculo do ângulo de Euler
 - [ ] Pesquisar o cálculo do quartenion
-- [ ] Pesquisar e testar a biblioteca do MPU6050
-- [ ] Pesquisar e testar o MPU6050 no Wokwi ([Documentação](https://docs.wokwi.com/parts/wokwi-mpu6050))
+- [x] Pesquisar e testar o MPU6050 no Wokwi ([Documentação](https://docs.wokwi.com/parts/wokwi-mpu6050))
 
 Documentações:
 - [ ] Testar o [Kicad](https://www.kicad.org/)
