@@ -4,6 +4,7 @@
 #include <freertos/task.h>
 #include <math.h>
 #include <stdio.h>
+
 #include "sdkconfig.h"
 
 // Acelerômetro
@@ -16,37 +17,32 @@
 typedef int esp_err_t;
 
 float byteToMs2(int16_t byteValue) {
-	// Se o valor for negativo, ajusta o bit de sinal e converte para int16_t
-	if (byteValue & 0x8000) {
-			byteValue |= 0xFFFF0000;
-	}
-	return (((float) byteValue) / ACCELEROMETER_SENSITIVE_SCALE_FACTOR) * G;
+    // Se o valor for negativo, ajusta o bit de sinal e converte para int16_t
+    if (byteValue & 0x8000) {
+        byteValue |= 0xFFFF0000;
+    }
+    return (((float)byteValue) / ACCELEROMETER_SENSITIVE_SCALE_FACTOR) * G;
 }
 
-float degreeToRad(float degree) {
-	return degree * (M_PI / 180.0);
-}
+float degreeToRad(float degree) { return degree * (M_PI / 180.0); }
 
 float byteToRad(int16_t byteValue) {
-	if (byteValue & 0x8000) {
-		byteValue |= 0xFFFF0000;
-	}
-	return degreeToRad(((float) byteValue / GYROSCOPE_SENSITIVE_SCALE_FACTOR));
+    if (byteValue & 0x8000) {
+        byteValue |= 0xFFFF0000;
+    }
+    return degreeToRad(((float)byteValue / GYROSCOPE_SENSITIVE_SCALE_FACTOR));
 }
 
-typedef struct
-{
+typedef struct {
     float x, y, z;
 } AccelerationData;
 
-typedef struct
-{
+typedef struct {
     float x, y, z;
 } GyroscopeData;
 
-typedef struct 
-{
-    uint8_t sensorByteData[14]; // Array que contém informação de aceleração, giro e temperatura;
+typedef struct {
+    uint8_t sensorByteData[14];  // Array que contém informação de aceleração, giro e temperatura;
     AccelerationData *acc;
     GyroscopeData *angle;
 } IMUData;
