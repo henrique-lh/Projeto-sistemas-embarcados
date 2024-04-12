@@ -13,4 +13,4 @@
 TODO
 
 - Diagrama de Blocos
-![Diagrama de Blocos](./diagrama-de-blocos.png)
+![Diagrama de Blocos](./diagrams/diagrama_de_blocos.png)
