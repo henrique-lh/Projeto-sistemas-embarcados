@@ -1,6 +1,6 @@
 # TODO
 
-**Obs**: Lembrem-se que não podemos de forma NENHUMA implementar coisas em
+**Obs.**: Lembrem-se que não podemos de forma NENHUMA implementar coisas em
 arduino, tudo deve ser ESP-IDF.
 
 [DOCUMENTO DE ESPECIFICAÇÃO DO PROJETO](https://docs.google.com/document/d/1QsI6OhLF0TfYbNzVzPUM2ZsxLW7arz3QbxE7xBPYGtU/edit)
@@ -24,6 +24,7 @@ arduino, tudo deve ser ESP-IDF.
   - [ ] Implementar função de cálculo do quaternion
 - [x] Pesquisar e testar o MPU6050 no Wokwi ([Documentação](https://docs.wokwi.com/parts/wokwi-mpu6050))
 - [x] Adicionar as interfaces obrigatórias nos componentes
+- [ ] Todas as funçõs estão realizando os cálculos sem saber se os ponteiros são válidos. Arrumar isso analisando com a [API de erros](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/error-handling.html), provavelmente com o macro `ESP_RETURN_ON_FALSE`.
 
 ### Documentações
 

@@ -5,4 +5,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(projeto-embarcados-mpu6050)
+project(src)
