@@ -13,8 +13,4 @@
 TODO
 
 - Diagrama de Blocos
-<<<<<<< HEAD
 ![Diagrama de Blocos](./images/diagrama-de-blocos.png)
-=======
-![Diagrama de Blocos](./diagrams/diagrama_de_blocos.png)
->>>>>>> fa8543d59024f1729cb4ab47f7a4004963515d16
