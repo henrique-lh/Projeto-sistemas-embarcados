@@ -64,3 +64,27 @@ Esta camada de abstração é utilizada entre a biblioteca `imu_tools.h` e o sen
 
 ![Máquina de Estados](assets/state_machine_v2.png "Máquina de Estados")
 
+## Como Configurar o Wokwi no VSCode e Rodar a Simulação
+
+### Instalação da Extensão
+
+1. **Instalar a Extensão Wokwi**: Primeiro, você precisa instalar a extensão "Wokwi for VS Code" no seu ambiente de desenvolvimento. Para fazer isso, abra o Visual Studio Code, vá até a aba de extensões (`Ctrl+Shift+X` ou `Command+Shift+P`), procure por "Wokwi" e instale a extensão oficial do Wokwi.
+
+### Solicitação de Licença
+
+2. **Solicitar uma Nova Licença**: Depois de instalar a extensão, pressione `F1` para abrir a paleta de comandos e selecione "Wokwi: Request a new License". O VS Code irá pedir para confirmar a abertura do site do Wokwi no seu navegador. Confirme clicando em "Open". Em seguida, clique no botão que diz "GET YOUR LICENSE". Você pode ser solicitado a fazer login na sua conta do Wokwi. Se você ainda não tem uma, pode criar gratuitamente. O navegador solicitará confirmação para enviar a licença para o VS Code. Confirme novamente (você pode ter que confirmar duas vezes, uma vez no navegador e outra vez no VS Code). Você verá uma mensagem no VS Code que diz "License activated for [your name]".
+
+### Iniciar a Simulação
+
+3. **Iniciar a Simulação com `diagram.json`**:
+   - Navegue até a pasta do seu projeto no VSCode.
+   - Procure pelo arquivo `diagram.json`.
+   - Abra o arquivo `diagram.json`.
+   - Com a simulação do seu projeto carregada, será possivel iniciar a simulação.
+
+#### Alternativa Online
+
+Se, por algum motivo, a configuração local não funcionar, você ainda pode acessar o Wokwi online através do seguinte link:
+
+https://wokwi.com/projects/406077545833439233
+
