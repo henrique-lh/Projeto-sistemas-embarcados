@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+elf = "build/mpu-code.elf"
+firmware = "build/mpu-code.bin"
+gdbServerPort=3333

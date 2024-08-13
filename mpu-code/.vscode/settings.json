@@ -1,0 +1,16 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.adapterTargetName": "esp32",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "files.associations": {
+    "imu_tools.h": "c",
+    "freertos.h": "c",
+    "task.h": "c",
+    "sensor_imu.h": "c",
+    "gpio.h": "c"
+  },
+  "idf.port": "/dev/tty.usbserial-10",
+  "idf.flashType": "UART"
+}
