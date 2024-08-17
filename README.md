@@ -20,6 +20,39 @@
 
 ## 📚 Descrição da Biblioteca
 
+### 📁 Estrutura de pastas
+
+```txt
+assets/
+    block_diagram.jpeg
+    electrical_diagram.jpeg
+    state_machine_v1.png
+    state_machine_v2.png
+mpu-code/
+    .devcontainer/
+    .vscode/
+    build/
+    components/
+        imu_tools/
+            include/
+            CMakeLists.txt
+            imu_tools.c
+        sensor_imu/
+            include/
+                sensor_imu.h
+            CMakeLists.txt
+            sensor_imu.c
+    main/
+        CMakeLists.txt
+        main.c
+    diagram.json
+    sdkconfig
+    sdkconfig.ci
+    sdkconfig.old
+    wokwi.toml
+README.md
+```
+
 ### 📁 Componente `imu_tools.h`
 
 Esta biblioteca fornece funções para calcular as três variáveis dos ângulos de Euler e as quatro do quaternion a partir dos dados de um sensor IMU.
@@ -62,7 +95,11 @@ Esta camada de abstração é utilizada entre a biblioteca `imu_tools.h` e o sen
 
 ## 🖼️ Máquina de Estados
 
-![Máquina de Estados](assets/state_machine_v2.png "Máquina de Estados")
+![Máquina de Estados](assets/state_machine_v3.png "Máquina de Estados")
+
+## 🏗️ Arquitetura
+
+![Arquitetura](assets/arquitetura.png "Arquitetura")
 
 ## Como Configurar o Wokwi no VSCode e Rodar a Simulação
 
