@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lucas/Documents/sistemas-embarcados-mpu/mpu-code/main
+# Install script for directory: /Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

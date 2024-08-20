@@ -11,6 +11,6 @@
     "sensor_imu.h": "c",
     "gpio.h": "c"
   },
-  "idf.port": "/dev/tty.usbserial-10",
+  "idf.port": "/dev/tty.usbserial-110",
   "idf.flashType": "UART"
 }
