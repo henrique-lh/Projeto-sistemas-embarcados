@@ -6,8 +6,11 @@
 // Define enumerações para ações
 typedef enum {
     ACTION_READ_IMU_DATA,
+    ACTION_PRINT_IMU_DATA,
     ACTION_CALCULATE_QUATERNION,
+    ACTION_PRINT_QUATERNION,
     ACTION_CALCULATE_EULER_ANGLES,
+    ACTION_PRINT_EULER_ANGLES,
     ACTION_NONE // Caso padrão se necessário
 } Action;
 
@@ -29,36 +32,39 @@ void app_main() {
         switch (currentAction) {
             case ACTION_READ_IMU_DATA:
                 // Ler dados do IMU
-                esp_err_t ret = imu_read_data(&data);
-                if (ret != ESP_OK) break;
+                imu_read_data(&data);
+                break;
 
+            case ACTION_PRINT_IMU_DATA:
+                // Print dados do IMU
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("Aceleração: X=%.2f, Y=%.2f, Z=%.2f g\n", data.accel.x, data.accel.y, data.accel.z);
                 printf("Giroscopio: X=%.2f, Y=%.2f, Z=%.2f °/s\n", data.gyro.x, data.gyro.y, data.gyro.z);
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
-                
                 break;
 
             case ACTION_CALCULATE_QUATERNION:
                 // Calcular quaternião
-                ret = imu_calculate_quaternion(&data, &quaternion);
-                if (ret != ESP_OK) break;
+                imu_calculate_quaternion(&data, &quaternion);
+                break;
 
+            case ACTION_PRINT_QUATERNION:
+                // Print dados do Quaternion
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("Quaternion: W=%.2f, X=%.2f, Y=%.2f, Z=%.2f\n", quaternion.w, quaternion.x, quaternion.y, quaternion.z);
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
-
                 break;
 
             case ACTION_CALCULATE_EULER_ANGLES:
                 // Calcular ângulos de Euler
-                ret = imu_calculate_euler_angles(&quaternion, &eulerAngle);
-                if (ret != ESP_OK) break;
+                imu_calculate_euler_angles(&quaternion, &eulerAngle);
+                break;
 
+            case ACTION_PRINT_EULER_ANGLES:
+                // Print dados do ângulo de Euler
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 printf("Euler Angle: Roll=%.2f, Pitch=%.2f, Yaw=%.2f rad\n", eulerAngle.roll, eulerAngle.pitch, eulerAngle.yaw);
                 printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
-
                 break;
 
             case ACTION_NONE:
@@ -67,9 +73,9 @@ void app_main() {
                 break;
         }
 
-        vTaskDelay(2000 / portTICK_PERIOD_MS);
+        vTaskDelay(500 / portTICK_PERIOD_MS);
 
         // Exemplo de lógica para mudar ação, poderia ser baseado na entrada do usuário ou outras condições
-        currentAction = (currentAction + 1) % 3; // Ciclar através das ações
+        currentAction = (currentAction + 1) % 7; // Ciclar através das ações
     }
 }
