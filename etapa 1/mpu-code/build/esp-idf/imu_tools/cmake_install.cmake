@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lucas/Documents/sistemas-embarcados-mpu/mpu-code/components/imu_tools
+# Install script for directory: /Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/components/imu_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

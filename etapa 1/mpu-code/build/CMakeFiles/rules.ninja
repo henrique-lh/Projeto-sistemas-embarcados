@@ -1375,7 +1375,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_imu_tools_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake --regenerate-during-build -S/Users/lucas/Documents/sistemas-embarcados-mpu/mpu-code -B/Users/lucas/Documents/sistemas-embarcados-mpu/mpu-code/build
+  command = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake --regenerate-during-build -S/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code -B/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build
   description = Re-running CMake...
   generator = 1
 
