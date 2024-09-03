@@ -1375,7 +1375,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake --regenerate-during-build -S/Users/lucas/Documents/servo-code/hello_world -B/Users/lucas/Documents/servo-code/hello_world/build
+  command = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake --regenerate-during-build -S"/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 2/servo-code" -B"/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 2/servo-code/build"
   description = Re-running CMake...
   generator = 1
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lucas/Documents/servo-code/hello_world/components/servo_tools
+# Install script for directory: /Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 2/servo-code/components/servo_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

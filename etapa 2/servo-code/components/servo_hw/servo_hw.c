@@ -105,7 +105,6 @@ esp_err_t hw_servo_init(uint8_t gpio_num, ledc_channel_t channel)
         vTaskDelay(pdMS_TO_TICKS(10)); // Espera 10ms entre cada posição para movimento suave
     }
 
-    printf("Servo inicializado com sucesso\n"); // Confirmação de inicialização bem-sucedida
     return ESP_OK; // Retorna sucesso se tudo foi configurado corretamente
 }
 
