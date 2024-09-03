@@ -59,7 +59,7 @@ Camada de abstração utilizada para a comunicação entre a biblioteca `servo_t
 
 ## 🛠️ Esquemático do Hardware
 
-![Esquemático do hardware](assets/electrical%20diagram.jpeg "Esquemático do protótipo do hardware")
+![Esquemático do hardware](assets/electrical_diagram.png "Esquemático do protótipo do hardware")
 
 ## 🖼️ Máquina de Estados
 
