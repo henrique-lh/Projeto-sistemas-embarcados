@@ -4,9 +4,6 @@
  *
  * Este arquivo demonstra como utilizar as funções de controle de servos
  * implementadas no módulo servo_tools.
- *
- * @author Seu Nome
- * @date Data Atual
  */
 
 #include <stdio.h>
