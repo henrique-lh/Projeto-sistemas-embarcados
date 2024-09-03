@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+elf = "build/servo-code.elf"
+firmware = "build/servo-code.bin"
+gdbServerPort=3333
