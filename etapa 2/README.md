@@ -23,7 +23,27 @@
 ### 📁 Estrutura de pastas
 
 ```txt
-TODO
+build/
+components/
+    servo_hw/
+        include/
+        CMakeLists.txt
+        servo_hw.c
+    servo_tools/
+        include/
+        CMakeLists.txt
+        servo_tools.c
+main/
+    CMakeLists.txt
+    main.c
+CMakeLists.txt
+diagram.json
+sdkconfig
+sdkconfig.ci
+sdkconfig.old
+wokwi.toml
+README.md
+
 ```
 
 ### 📁 Componente `servo_tools.h`
@@ -55,7 +75,7 @@ Camada de abstração utilizada para a comunicação entre a biblioteca `servo_t
 
 ## 🖼️ Diagrama de Bloco do Protótipo do Hardware
 
-![Diagrama de bloco do hardware](assets/block_diagram.jpeg "Diagrama de bloco do protótipo do hardware")
+![Diagrama de bloco do hardware](assets/block_diagram.png "Diagrama de bloco do protótipo do hardware")
 
 ## 🛠️ Esquemático do Hardware
 
@@ -63,7 +83,7 @@ Camada de abstração utilizada para a comunicação entre a biblioteca `servo_t
 
 ## 🖼️ Máquina de Estados
 
-![Máquina de Estados](assets/state_machine_v1.png "Máquina de Estados")
+![Máquina de Estados](assets/state_diagram.png "Máquina de Estados")
 
 ## 🏗️ Arquitetura
 
@@ -86,12 +106,6 @@ Camada de abstração utilizada para a comunicação entre a biblioteca `servo_t
    - Procure pelo arquivo `diagram.json`.
    - Abra o arquivo `diagram.json`.
    - Com a simulação do seu projeto carregada, será possivel iniciar a simulação.
-
-#### Alternativa Online
-
-Se, por algum motivo, a configuração local não funcionar, você ainda pode acessar o Wokwi online através do seguinte link:
-
-TODO
 
 
 ## Demonstração
