@@ -45,33 +45,8 @@ wokwi.toml
 README.md
 
 ```
-
-### 📁 Componente `servo_tools.h`
-
-Biblioteca chamada `servo_tools.h` que tem como finalidade o controle do ângulo do servomotor.
-
-#### 🏗️ Estruturas
-
-- `ServoConfig`: Representa os dados de configuração do servo motor.
-- `ServoAngle`: Representa os dados do ângulo atual do servo motor.
-
-#### 📊 Funções
-
-- `esp_err_t servo_init(ServoConfig *config)`: Inicializa o servomotor com base na configuração fornecida (pino GPIO, frequência PWM, etc.).
-- `esp_err_t servo_set_angle(ServoConfig *config, ServoAngle angle)`: Define o ângulo do servomotor, movendo o braço acoplado ao rotor para a posição desejada.
-- `esp_err_t servo_get_angle(const ServoConfig *config, ServoAngle *angle)`: Obtém o ângulo atual do braço do servomotor.
-
-### 📁 Camada de abstração `servo_hw.h`
-
-Camada de abstração utilizada para a comunicação entre a biblioteca `servo_tools.h` e o servomotor. Essa camada será responsável pelo controle dos sinais PWM que determinam a posição do servomotor.
-
-
-#### 📊 Funções
-
-- `esp_err_t hw_servo_init(uint8_t gpio_num)`: Inicializa o GPIO para a geração do sinal PWM usado no controle do servo. Na inicialização do servo o mesmo deve fazer uma varredura iniciando o ângulo 0 (zero) indo até o ângulo máximo do servo e voltando para o ângulo 0.
-
-- `esp_err_t hw_servo_set_pulse_width(uint8_t gpio_num, uint32_t pulse_width_us)`: Define a largura de pulso (em microsegundos) para controlar o ângulo do servomotor..
-- `esp_err_t hw_servo_deinit(uint8_t gpio_num)`: Desabilita o PWM no GPIO especificado e libera os recursos utilizados..
+Esse projeto unifica, as bibliotecas do servo motor, que são `servo_hw` e `servo_tools`, com as bibliotecas do MPU6050, que são `imu_tools` e `sensor_imu`.
+O objetivo é que o os servo motores sejam controlados pelo MPU6050, ou seja, o MPU6050 irá captar os dados do giroscópio e com base nesses dados, o servo motor irá se mover.
 
 ## 🖼️ Diagrama de Bloco do Protótipo do Hardware
 
@@ -110,4 +85,4 @@ Camada de abstração utilizada para a comunicação entre a biblioteca `servo_t
 
 ## Demonstração
 
-https://youtu.be/y85YDr9T9Vo
+TODO
