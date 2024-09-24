@@ -43,8 +43,7 @@ typedef enum {
     ACTION_CALCULATE_EULER_ANGLES,
     ACTION_SET_SERVO_ANGLE,
     ACTION_PRINT_ERROR,
-    ACTION_DELAY,
-    ACTION_NONE // Caso padrão se necessário
+    ACTION_DELAY
 } Action;
 
 void app_main() {
@@ -158,7 +157,6 @@ void app_main() {
                 currentAction = ACTION_READ_IMU_DATA;
                 break;
 
-            case ACTION_NONE:
             default:
                 // Não faça nada ou lide com outras ações
                 break;
