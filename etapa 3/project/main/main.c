@@ -14,11 +14,6 @@
 #include <string.h>
 
 #define PI 3.14159265358979323846
-#define degrees(x) (180 * x / M_PI)
-#define GYRO_SCALE 131.0f 
-#define DEG_TO_RAD (3.14159265358979323846 / 180.0f)
-#define GRAVITY 9.81f
-#define ACCEL_SCALE 16384
 
 #define MAX_ERROR_LENGTH 200
 
