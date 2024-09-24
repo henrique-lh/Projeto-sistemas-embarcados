@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/components/sensor_imu
+# Install script for directory: /Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/components/sensor_imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

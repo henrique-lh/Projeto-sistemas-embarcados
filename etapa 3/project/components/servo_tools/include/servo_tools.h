@@ -2,7 +2,7 @@
 #define SERVO_TOOLS_H
 
 #include "esp_err.h"
-#include "servo_hw.h"  // Inclui a camada de abstração de hardware
+#include "driver/ledc.h"
 
 // Define constants for PWM
 #define SERVO_PWM_FREQUENCY 50 // PWM frequency in Hz
@@ -26,6 +26,6 @@ typedef int ServoAngle;
 esp_err_t servo_init(ServoConfig *config); // Inicializa o servomotor com base na configuração fornecida.
 esp_err_t servo_set_angle(ServoConfig *config, int angle); // Define o ângulo do servomotor, movendo o braço acoplado ao rotor para a posição desejada.
 esp_err_t servo_get_angle(const ServoConfig *config, int *angle); // Obtém o ângulo atual do braço do servomotor.
-
+esp_err_t servo_deinit(ServoConfig *config);
 
 #endif // SERVO_TOOLS_H

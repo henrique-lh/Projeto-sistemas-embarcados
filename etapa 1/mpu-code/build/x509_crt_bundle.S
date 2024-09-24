@@ -1,4 +1,4 @@
-/* * Data converted from /Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

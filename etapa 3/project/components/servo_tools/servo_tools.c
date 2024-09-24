@@ -7,7 +7,9 @@ esp_err_t servo_init(ServoConfig *config) {
   }
 
   // Initialize the hardware for PWM
-  return hw_servo_init(config);
+  esp_err_t ret = hw_servo_init(config);
+
+  return ret;
 }
 
 
@@ -16,7 +18,7 @@ esp_err_t servo_set_angle(ServoConfig *config, int angle) {
     return ESP_FAIL;
   }
 
-  uint32_t pulse_width_us = SERVO_MIN_PULSE_WIDTH_US + (angle * (SERVO_MAX_PULSE_WIDTH_US - SERVO_MIN_PULSE_WIDTH_US ) / 181);
+  uint32_t pulse_width_us = SERVO_MIN_PULSE_WIDTH_US + (angle * (SERVO_MAX_PULSE_WIDTH_US - SERVO_MIN_PULSE_WIDTH_US ) / 180);
   esp_err_t ret = hw_servo_set_pulse_width(config, pulse_width_us);
   if (ret == ESP_OK) {
     config->current_angle = angle;
@@ -31,4 +33,15 @@ esp_err_t servo_get_angle(const ServoConfig *config, int *angle) {
 
   *angle = config->current_angle;
   return ESP_OK;
+}
+
+esp_err_t servo_deinit(ServoConfig *config) {
+  if (!config) {
+    return ESP_FAIL;
+  }
+
+  // Initialize the hardware for PWM
+  esp_err_t ret = hw_servo_deinit(config);
+
+  return ret;
 }
