@@ -23,6 +23,20 @@ O objetivo é que o os servo motores sejam controlados pelo MPU6050, ou seja, o 
 
 ## 📚 Descrição da Biblioteca
 
+Na Etapa 3 foi realizada uma junção das bibliotecas construídas na etapa 1 e 2. Nosso grupo 4 ficou responsável por unir a biblioteca do MPU desenvolvida pelo Grupo 2 (https://github.com/GabrielAlbinoo/embarcados), e a biblioteca do Servo Motor desenvolvida pelo Grupo 1 (https://github.com/Marcelo-RSilva/biblioteca_servo_motor_esp_idf?authuser=0).
+
+### Relatório da Etapa 3
+
+#### Uso das Bibliotecas de Servo Motor e MPU6050
+
+A biblioteca do servo motor funcionou corretamente de acordo com o esperado.
+Já a biblioteca do MPU6050 não funcionou corretamente, pois não conseguimos fazer a leitura correta dos dados do MPU.
+Devido a isso, tivemos que corrigir a biblioteca do MPU6050 para que ela funcionasse corretamente, incluindo alterações na interface original da biblioteca.
+
+#### Delay após definir ângulo do servo
+
+Foi utilizado um delay de 1000ms para que o servo motor se movimentasse. Isso se deve ao fato de que o servo motor não consegue se movimentar rapidamente, então é necessário um tempo para que ele se movimente.
+
 ### 📁 Estrutura de pastas
 
 ```txt
@@ -95,15 +109,3 @@ README.md
 ## Demonstração
 
 TODO
-
-## Relatório da Etapa 3
-
-### Uso das Bibliotecas de Servo Motor e MPU6050
-
-A biblioteca do servo motor funcionou corretamente de acordo com o esperado.
-Já a biblioteca do MPU6050 não funcionou corretamente, pois não conseguimos fazer a leitura correta dos dados do MPU.
-Devido a isso, tivemos que corrigir a biblioteca do MPU6050 para que ela funcionasse corretamente, incluindo alterações na interface original da biblioteca.
-
-### Delay nos servos
-
-Foi utilizado um delay de 1000ms para que o servo motor se movimentasse. Isso se deve ao fato de que o servo motor não consegue se movimentar rapidamente, então é necessário um tempo para que ele se movimente.
