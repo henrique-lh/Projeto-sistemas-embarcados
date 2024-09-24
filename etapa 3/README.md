@@ -10,6 +10,9 @@
 
 ## 📝 Sobre o Projeto
 
+Esse projeto unifica, as bibliotecas do servo motor, que são `servo_hw` e `servo_tools`, com as bibliotecas do MPU6050, que são `imu_tools` e `sensor_imu`.
+O objetivo é que o os servo motores sejam controlados pelo MPU6050, ou seja, o MPU6050 irá captar os dados do giroscópio e com base nesses dados, o servo motor irá se mover.
+
 ### 🎯 Itens a Serem Entregues
 
 - 🧩 Firmware contendo um exemplo de utilização da biblioteca.
@@ -25,6 +28,14 @@
 ```txt
 build/
 components/
+    imu_tools/
+        include/
+        CMakeLists.txt
+        imu_tools.c
+    sensor_imu/
+        include/
+        CMakeLists.txt
+        sensor_imu.c
     servo_hw/
         include/
         CMakeLists.txt
@@ -45,8 +56,6 @@ wokwi.toml
 README.md
 
 ```
-Esse projeto unifica, as bibliotecas do servo motor, que são `servo_hw` e `servo_tools`, com as bibliotecas do MPU6050, que são `imu_tools` e `sensor_imu`.
-O objetivo é que o os servo motores sejam controlados pelo MPU6050, ou seja, o MPU6050 irá captar os dados do giroscópio e com base nesses dados, o servo motor irá se mover.
 
 ## 🖼️ Diagrama de Bloco do Protótipo do Hardware
 
@@ -58,7 +67,7 @@ O objetivo é que o os servo motores sejam controlados pelo MPU6050, ou seja, o 
 
 ## 🖼️ Máquina de Estados
 
-![Máquina de Estados](assets/state_diagram.png "Máquina de Estados")
+![Máquina de Estados](assets/state_machine.png "Máquina de Estados")
 
 ## 🏗️ Arquitetura
 
