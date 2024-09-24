@@ -95,3 +95,15 @@ README.md
 ## Demonstração
 
 TODO
+
+## Relatório da Etapa 3
+
+### Uso das Bibliotecas de Servo Motor e MPU6050
+
+A biblioteca do servo motor funcionou corretamente de acordo com o esperado.
+Já a biblioteca do MPU6050 não funcionou corretamente, pois não conseguimos fazer a leitura correta dos dados do MPU.
+Devido a isso, tivemos que corrigir a biblioteca do MPU6050 para que ela funcionasse corretamente, incluindo alterações na interface original da biblioteca.
+
+### Delay nos servos
+
+Foi utilizado um delay de 1000ms para que o servo motor se movimentasse. Isso se deve ao fato de que o servo motor não consegue se movimentar rapidamente, então é necessário um tempo para que ele se movimente.
