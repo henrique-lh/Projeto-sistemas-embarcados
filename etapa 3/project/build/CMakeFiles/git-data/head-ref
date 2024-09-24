@@ -1,1 +1,29 @@
-01c21d62a5ca612c96ae660a96a081ea17f5db87
+0000000000000000000000000000000000000000 081d715dc594a0ea7dcde00a40824d860e2aeb0f Lucas Bivar <lucasbivarfonseca@gmail.com> 1723512338 -0300	clone: from https://github.com/henrique-lh/Projeto-sistemas-embarcados.git
+081d715dc594a0ea7dcde00a40824d860e2aeb0f a2e7ca325b11353beac293705dd4f8297cf15981 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723512430 -0300	commit: feat: cleaning repo
+a2e7ca325b11353beac293705dd4f8297cf15981 380ef4e34d59fbc6993d8edb327320fa63eea652 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723512511 -0300	commit: feat: add esp mpu code
+380ef4e34d59fbc6993d8edb327320fa63eea652 8eb93ee838366d2e62cc458b3576754992b7b203 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723513614 -0300	commit: feat: add assets
+8eb93ee838366d2e62cc458b3576754992b7b203 b7513aa1e92b2b5996ab6b3d8220acfcdcaeb976 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723520955 -0300	commit: feat: add machine state assets
+b7513aa1e92b2b5996ab6b3d8220acfcdcaeb976 01ed4041ea9fe8c4d3d66c32384b557b647647b8 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723522675 -0300	commit: feat: add readme
+01ed4041ea9fe8c4d3d66c32384b557b647647b8 278f77f335cd1d3f3d8ad0b6f0af7ac3c4222ec2 Lucas Bivar <lucasbivarfonseca@gmail.com> 1723524398 -0300	commit: feat: improving code style
+278f77f335cd1d3f3d8ad0b6f0af7ac3c4222ec2 8cf8dfa14367808ca775eaa73b83c1327751bf4c Lucas Bivar <lucasbivarfonseca@gmail.com> 1723525417 -0300	commit: feat: improving readme
+8cf8dfa14367808ca775eaa73b83c1327751bf4c 678ef25b1fdc50ac79244bd74c5e6c647014e170 Lucas Bivar <lucasbivarfonseca@gmail.com> 1724163622 -0300	pull: Fast-forward
+678ef25b1fdc50ac79244bd74c5e6c647014e170 0954c494596599a20d2f8ac1c98dcbec15a65098 Lucas Bivar <lucasbivarfonseca@gmail.com> 1724164556 -0300	commit: feat: add build project
+0954c494596599a20d2f8ac1c98dcbec15a65098 8658038d107f3010c34c487b5b65976955a45baa Lucas Bivar <lucasbivarfonseca@gmail.com> 1724165009 -0300	commit: feat: add video
+8658038d107f3010c34c487b5b65976955a45baa c88308c4005eefcc5bc0425cf43425d358953bb5 Lucas Bivar <lucasbivarfonseca@gmail.com> 1724165119 -0300	pull: Fast-forward
+c88308c4005eefcc5bc0425cf43425d358953bb5 90404fc0db7cd06e2cec46637b12cee048ceddf2 Lucas Bivar <lucasbivarfonseca@gmail.com> 1724167000 -0300	commit: feat:
+90404fc0db7cd06e2cec46637b12cee048ceddf2 76060ccb065d27fed8ba27619f7af600c89106fd Lucas Bivar <lucasbivarfonseca@gmail.com> 1724776268 -0300	commit: feat: refactoring main
+76060ccb065d27fed8ba27619f7af600c89106fd c99ff3f773c9d5f0ca08f2a57a322eaa362e0fe8 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725340852 -0300	pull: Fast-forward
+c99ff3f773c9d5f0ca08f2a57a322eaa362e0fe8 8c78aa4159a4baa9dacbe8f9d4f48a3cbce502ed Lucas Bivar <lucasbivarfonseca@gmail.com> 1725341143 -0300	commit: feat: servo code
+8c78aa4159a4baa9dacbe8f9d4f48a3cbce502ed 3f8b73580a33e9a7e273a868dff0b760b72958b3 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725341273 -0300	commit: feat: removing author
+3f8b73580a33e9a7e273a868dff0b760b72958b3 89777c486bbd3def5634c8e71fcbab2f39a1d3e1 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725342758 -0300	commit: feat: add electrial diagram
+89777c486bbd3def5634c8e71fcbab2f39a1d3e1 8a88750891ed381afc677ac41f8ca829ecc3235b Lucas Bivar <lucasbivarfonseca@gmail.com> 1725342957 -0300	commit: feat: correct electrial diagram
+8a88750891ed381afc677ac41f8ca829ecc3235b f4a31ea726837bfd0ceae3c7e5db71edbcb3b483 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725360575 -0300	commit: feat: add vscode files and build
+f4a31ea726837bfd0ceae3c7e5db71edbcb3b483 3890fbe2982706ad3e9b09ae498712b7ea31b641 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725375904 -0300	commit: feat: refactor main
+3890fbe2982706ad3e9b09ae498712b7ea31b641 38b06ed9a4d92d3d82f0e5f78bb7f52b3919bfb4 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725376603 -0300	commit: feat: updating readme
+38b06ed9a4d92d3d82f0e5f78bb7f52b3919bfb4 3890fbe2982706ad3e9b09ae498712b7ea31b641 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725376615 -0300	reset: moving to HEAD~1
+3890fbe2982706ad3e9b09ae498712b7ea31b641 864598e6288b39b3f8a06747abe8cebe5b6e8bf3 Lucas Bivar <lucasbivarfonseca@gmail.com> 1725376632 -0300	pull: Fast-forward
+864598e6288b39b3f8a06747abe8cebe5b6e8bf3 9b339bdb19f65ed0adf5534b4958a0acd78bbc5d Lucas Bivar <lucasbivarfonseca@gmail.com> 1725376674 -0300	commit: feat: add video
+9b339bdb19f65ed0adf5534b4958a0acd78bbc5d 4864c10089ed0d201cd4404338c72f2c2dc3efdc Lucas Bivar <lucasbivarfonseca@gmail.com> 1726968527 -0300	pull: Fast-forward
+4864c10089ed0d201cd4404338c72f2c2dc3efdc 01c21d62a5ca612c96ae660a96a081ea17f5db87 Lucas Bivar <lucasbivarfonseca@gmail.com> 1726970308 -0300	pull: Fast-forward
+01c21d62a5ca612c96ae660a96a081ea17f5db87 03cac1b73736a16217c7119c55fa3742c852b60e Lucas Bivar <lucasbivarfonseca@gmail.com> 1726975045 -0300	pull: Fast-forward
+03cac1b73736a16217c7119c55fa3742c852b60e f80e55783eff41edf18869a9ddcd7193f54a9c80 Lucas Bivar <lucasbivarfonseca@gmail.com> 1726975112 -0300	commit: add etapa 3

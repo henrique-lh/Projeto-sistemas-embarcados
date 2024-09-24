@@ -14,6 +14,6 @@ esp_err_t hw_servo_init(ServoConfig *config);
 // Define a largura de pulso (em microsegundos) para controlar o ângulo do servomotor.
 esp_err_t hw_servo_set_pulse_width(ServoConfig *config, uint32_t pulse_width_us);
 // Desabilita o PWM no GPIO especificado e libera os recursos utilizados
-esp_err_t hw_servo_deinit(uint8_t gpio_num);
+esp_err_t hw_servo_deinit(ServoConfig *config);
 
 #endif // SERVO_HW_H

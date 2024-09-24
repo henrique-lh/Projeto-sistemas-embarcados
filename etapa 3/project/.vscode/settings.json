@@ -6,6 +6,23 @@
   ],
   "files.associations": {
     "servo_tools.h": "c",
-    "task.h": "c"
+    "task.h": "c",
+    "esp_log.h": "c",
+    "servo_hw.h": "c",
+    "mcpwm.h": "c",
+    "freertos.h": "c",
+    "ledc.h": "c",
+    "gpio.h": "c",
+    "imu_tools.h": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "sensor_imu.h": "c",
+    "i2c.h": "c",
+    "cmath": "c",
+    "complex": "c",
+    "sdkconfig.h": "c"
   },
+  "idf.port": "/dev/tty.usbserial-0001",
+  "idf.flashType": "UART",
 }

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Lucas Bivar Fonsêca Tavares",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": { "builder": "esp-idf" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -30.8, "left": 163.2, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo2", "top": 103.6, "left": 172.8, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 51.82, "left": -93.68, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "esp:GND.2", "black", [ "h0" ] ],
+    [ "servo2:GND", "esp:GND.2", "black", [ "h-48", "v-124.8" ] ],
+    [ "servo1:V+", "esp:3V3", "green", [ "h-38.4", "v-47.9", "h-134.4" ] ],
+    [ "servo2:V+", "esp:3V3", "green", [ "h-38.4", "v-191.9", "h-124.8", "v57.6", "h-19.2" ] ],
+    [ "servo1:PWM", "esp:12", "green", [ "h-48", "v182.6", "h-134.4", "v-76.8" ] ],
+    [ "servo2:PWM", "esp:13", "green", [ "h-48", "v67.4", "h-134.4", "v-76.8" ] ],
+    [ "imu1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "imu1:GND", "esp:GND.2", "black", [ "v-115.2", "h76.88" ] ],
+    [ "imu1:SDA", "esp:21", "green", [ "v-172.8", "h192.08", "v192" ] ],
+    [ "imu1:SCL", "esp:22", "green", [ "v-163.2", "h192.08", "v163.2" ] ]
+  ],
+  "dependencies": {}
+}

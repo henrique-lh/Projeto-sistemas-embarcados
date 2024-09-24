@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/CMakeFiles/bootloader"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/CMakeFiles/bootloader.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/Users/lucas/Documents/Projeto-sistemas-embarcados/etapa 1/mpu-code/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 
